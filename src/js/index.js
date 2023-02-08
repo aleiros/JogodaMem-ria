@@ -3,7 +3,7 @@ var cartoes = document.querySelectorAll(".cartao");
 var existeCartaoVirado = false;
 var primeiroCartao, segundoCartao;
 
-var resultadoJogadores = [];
+var resultadosJogadores = [];
 
 var itensStorage = localStorage.getItem("resultado");
 
@@ -13,7 +13,7 @@ if (itensStorage) {
   var resultadosExistentes = [];
 }
 
-console.log(resultadoJogadores);
+console.log(resultadosJogadores);
 
 var placar = 0;
 var tempo = 0;
