@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+<body>
+
+    <div>
+        <section class="placar">
+            <section class="resultado">
+                <h1>Placar</h1>
+                <div id="resultado">0</div>
+            </section>
+            <section class="resultado">
+                <h1>Tempo</h1>
+                <div id="tempo">0</div>
+            </section>
+        </section>
+
+        <section class="jogo">
+            <div class="cartao" data-info="A">
+                <img src="./src/assets/imgs/A.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="A">
+                <img src="./src/assets/imgs/AMao.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="B">
+                <img src="./src/assets/imgs/B.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="B">
+                <img src="./src/assets/imgs/BMao.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="C">
+                <img src="./src/assets/imgs/C.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="C">
+                <img src="./src/assets/imgs/CMao.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="D">
+                <img src="./src/assets/imgs/D.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="D">
+                <img src="./src/assets/imgs/DMao.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="E">
+                <img src="./src/assets/imgs/E.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="E">
+                <img src="./src/assets/imgs/EMao.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="F">
+                <img src="./src/assets/imgs/F.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+            <div class="cartao" data-info="F">
+                <img src="./src/assets/imgs/FMao.png" class="frente-cartao" alt="Frente do cartao">
+                <img src="./src/assets/imgs/Maos.png" class="verso-cartao" alt="Verso do cartao">
+            </div>
+        </section>
+    </div>
+
+    <section id="recordes">
+        <h1>Recordes</h1>
+        <table id="resultados">
+            <thead>
+                <td>Nome</td>
+                <td>Pontuação</td>
+            </thead>
+        </table>
+
+        <button id="reiniciar">Reiniciar Jogo</button>
+    </section>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
